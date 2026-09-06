@@ -22,9 +22,9 @@ Para alimentar o NotebookLM, foram utilizadas as seguintes fontes oficiais e com
 
 | Fonte | Descrição |
 |-------|-----------|
-| [OWASP Top 10:2025](https://owasp.org/Top10/2025/) | Versão mais recente do documento oficial, com a lista atualizada dos riscos mais críticos.[reference:1] |
-| [OWASP Top 10:2021](https://owasp.org/Top10/2021/) | Versão anterior, mantida para fins de comparação e estudo histórico.[reference:2] |
-| [Repositório Oficial OWASP/Top10](https://github.com/OWASP/Top10) | Repositório oficial com todas as versões do documento, incluindo apresentações e PDFs.[reference:3] |
+| [OWASP Top 10:2025](https://owasp.org/Top10/2025/) | Versão mais recente do documento oficial, com a lista atualizada dos riscos mais críticos. |
+| [OWASP Top 10:2021](https://owasp.org/Top10/2021/) | Versão anterior, mantida para fins de comparação e estudo histórico. |
+| [Repositório Oficial OWASP/Top10](https://github.com/OWASP/Top10) | Repositório oficial com todas as versões do documento, incluindo apresentações e PDFs. |
 | [OWASP Top 10:2021 - A04 Insecure Design](https://owasp.org/Top10/2021/A04_2021-Insecure_Design/) | Página detalhada sobre a categoria "Insecure Design", com exemplos e mitigação. |
 | [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) | Projeto complementar focado em vulnerabilidades específicas de aplicações móveis. |
 
@@ -32,7 +32,7 @@ Para alimentar o NotebookLM, foram utilizadas as seguintes fontes oficiais e com
 
 | Fonte | Descrição |
 |-------|-----------|
-| [Free for Open Source Application Security Tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools) | Lista de ferramentas SAST, DAST e IAST gratuitas para projetos open source.[reference:4] |
+| [Free for Open Source Application Security Tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools) | Lista de ferramentas SAST, DAST e IAST gratuitas para projetos open source. |
 | [OWASP SCP Quick Reference Guide v2](https://iotsecuritymapping.com/wp-content/uploads/2022/05/OWASP_SCP_Quick_Reference_Guide_v2.pdf) | Guia rápido de referência sobre Secure Coding Practices. |
 | [Broken Access Control Prevention Guide](https://info.veracode.com/rs/790-ZKW-291/images/broken-access-control-prevention-guide-en.pdf) | Guia prático da Veracode sobre prevenção de quebras de controle de acesso. |
 
@@ -69,7 +69,7 @@ Esta seção documenta os prompts estratégicos utilizados no NotebookLM, as res
 
 **Resposta esperada:** Tabela com as 10 categorias de cada versão, indicando quais foram mantidas, renomeadas, removidas ou adicionadas.
 
-**Cicatriz (dificuldade):** O NotebookLM inicialmente trouxe apenas a lista de 2025. Foi necessário refinar o prompt para incluir a comparação explícita com a versão 2021.[reference:5][reference:6]
+**Cicatriz (dificuldade):** O NotebookLM inicialmente trouxe apenas a lista de 2025. Foi necessário refinar o prompt para incluir a comparação explícita com a versão 2021.
 
 ---
 
@@ -100,7 +100,7 @@ Esta seção documenta os prompts estratégicos utilizados no NotebookLM, as res
 **Prompt:**
 > "Liste as principais ferramentas SAST, DAST e IAST gratuitas para projetos open source, conforme mencionado nas fontes. Para cada ferramenta, indique sua finalidade, linguagens suportadas e como integrá-la em um pipeline de CI/CD."
 
-**Resposta esperada:** Lista detalhada de ferramentas com especificações técnicas.[reference:7]
+**Resposta esperada:** Lista detalhada de ferramentas com especificações técnicas.
 
 **Cicatriz (dificuldade):** O NotebookLM confundiu ferramentas pagas com gratuitas. **Solução:** Refinar com "apenas ferramentas que são totalmente gratuitas para projetos open source".
 
