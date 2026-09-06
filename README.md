@@ -2,7 +2,7 @@
 
 ## 📌 Contexto e Objetivos
 
-Este repositório documenta a criação de um **Caderno Temático (NotebookLM)** focado no estudo da **OWASP Top 10**, a principal referência mundial para identificação dos riscos mais críticos em segurança de aplicações web.[reference:0]
+Este repositório documenta a criação de um **Caderno Temático (NotebookLM)** focado no estudo da **OWASP Top 10**, a principal referência mundial para identificação dos riscos mais críticos em segurança de aplicações web.
 
 **Objetivos de estudo:**
 
