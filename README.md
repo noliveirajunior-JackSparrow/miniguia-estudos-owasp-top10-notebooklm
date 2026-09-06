@@ -190,6 +190,9 @@ Esta seção documenta os prompts estratégicos utilizados no NotebookLM, as res
 
 11. "Crie um mapa mental interligando as 10 categorias da OWASP Top 10:2025."
 
+```
+---
+
 # ⚠️ Aviso Ético
 Este material tem exclusivamente fins educacionais e de conscientização. Todo o conhecimento aqui apresentado sobre vulnerabilidades e técnicas de exploração deve ser utilizado apenas em ambientes autorizados (como laboratórios próprios, CTFs ou com permissão expressa dos proprietários dos sistemas). O uso indevido dessas técnicas para acessar, modificar ou comprometer sistemas sem autorização é crime e vai contra os princípios da comunidade de segurança da informação. Seja ético, estude com responsabilidade.
 
